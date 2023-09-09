@@ -1,0 +1,691 @@
+/*  ESTILOS GENERALES */
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.seccion-oscura{
+   background-color: #212529;
+    color: white;
+}
+
+.seccion-clara{
+    color: black;
+    background-color: white;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    font-family: 'Rubik Dirt';
+    text-align: center;
+}
+
+.seccion-texto{
+    font-size: 1.2rem;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color: #606060;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.texto-negro{
+    color: black;
+}
+
+.texto-blanco{
+    color: white;
+}
+
+.btn-info{
+    font-size: 1.2rem;
+    margin: 20px;
+    font-weight: lighter;
+    background-color: #424242;
+    color: white;
+    border: none;
+}
+
+.btn-info:hover{
+    background-color:#198754;
+    color: white;
+}
+
+/* NAVBAR */    
+.navbar{
+    padding: 2rem;
+    background-color:  white; 
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-link{
+    font-size: 1.4rem}
+
+/* SECCION PRINCIPAL */  
+.hero{
+    background-color: white;
+    min-height: 450px;
+    text-align: center;
+}
+
+.imagen{
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 15px 0px rgba(0.80, 0.80, 0.80, 0.80);
+}
+
+
+.hdos{
+    margin-bottom: 80px;
+    font-size: 1.6rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #606060;
+}
+
+/* CONTACTO */
+.contacto .container{
+    max-width: 1100px;
+    min-height: 160px;
+    padding: 20px;
+}
+
+.contacto .rectangulo{
+margin-top: -3.5rem;
+background-color: #3a5a40;
+border-radius: 10px;
+box-shadow: 0px 1px 5px 1px;
+}
+
+.contacto .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button{
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+/* SECCION SOBRE MI */
+.sobre-mi{
+    padding: 10px;
+}  
+
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+/* STACK */
+
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color: #000000;
+    text-align: center;
+}
+
+.stack .container{
+    max-width: 1400px;
+    min-height: 180px;
+    padding: 10px;
+}
+
+.stack .rectangulo{
+    margin-top: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 1px;
+    margin-bottom: 4rem;
+}
+
+.seccion-titulo-stack{
+    font-size: 2rem;
+    font-family: 'Rubik Dirt';
+    text-align: center;
+    margin-top: 40px;
+}
+
+.stack img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.stack .row{
+    width: 100%;
+    display: flex;
+    align-items:stretch ;
+}
+
+/* EXPERIENCIA */
+.experiencia{
+    padding: 60px 40px 60px 40px;   
+}
+
+.experiencia-titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: white;
+    background-color: #212529;
+    padding: 11px 17px;
+    border-radius: 50%;
+}
+
+.experiencia .columna {
+    font-size: 1.1rem;
+padding: 30px 25px;;
+border: 2px solid #8080804d;
+flex-direction: column;
+justify-content: space-evenly;
+transition: all 0.2s ease-in;
+}
+
+.experiencia .columna2 {
+    font-size: 1.1rem;
+padding: 30px 25px;
+border: 2px solid #8080804d;
+flex-direction: column;
+justify-content: space-evenly;
+transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover {
+color: white;
+background-color: #3a5a40;
+}
+
+.experiencia .columna2:hover {
+    color: white;
+    background-color: #3a5a40;
+    }
+
+.badges-contenedor{
+font-size: 1.2rem;
+font-weight: bold;
+margin: 10px 0;
+}
+
+.badge{
+    margin: 5px;
+    background-color: #1b1b32;
+}
+
+/* PROYECTOS */
+.proyectos-recientes{
+    padding: 50px;
+}
+
+.proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor{
+    padding-top: 30px;
+}
+
+.proyecto{
+    position: relative;
+    margin: 20px 0;
+}
+
+.overlay{
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: black;
+}
+
+.overlay .iconos-contenedor{
+    display: flex;
+}
+
+.overlay i{
+    color: black;
+    font-size: 80px;
+    margin: 50px;
+    
+}
+
+.proyecto:hover img{
+    opacity: 0.3;
+}
+
+.proyecto:hover .overlay{
+    opacity: 1;
+
+}
+.card{
+    background-color: white;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.card-text{
+font-size: 1.1rem;
+color: black;
+}
+
+.text-body-secondary{
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+/* ARTICULOS */
+.articulos{
+    min-height: 500px;
+    padding: 30px;
+}
+
+.articulos .card{
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.articulos .card-header{
+font-weight: bold;
+color: white;
+background-color:#3a5a40;
+font-size: 1.2rem;
+}
+
+.list-group li{
+    font-size: 1.1rem;
+}
+
+.list-group li:hover{
+    color: white;
+    background-color: #aeaeae;
+}
+a {
+    text-decoration: none;
+}
+
+/* TESTIMONIOS */
+.testimonios{
+    padding: 40px 40px 80px 40px;
+}
+
+.testimonios .carousel{
+    max-width: 800px;
+}
+.testimonios .seccion-descripcion{
+    font-size: 1.2rem;
+    color: #606060;
+    margin-bottom: 30px;
+}
+
+.carousel .item{
+    height: 500px;
+}
+
+.carousel-item .container{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.testimonio-imagen{
+    border: 2px solid #606060;
+    height: 160px;
+    width: 160px;
+    margin: 10px 10px 20px 10px;
+}
+
+.testimonio-texto{
+    max-width: 70%;
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.testimonio-info{
+    font-weight: bold;
+    text-align: center;
+}
+
+.testimonio-info p{
+    margin-bottom: 0;
+}
+
+.testimonio-info .cliente{
+    font-size: 1.2rem;
+}
+
+.testimonio-info .cargo{
+    font-size: 0.9rem;
+    color: #606060;
+}
+
+.contacto button:hover{
+    background-color: white;
+    color: black;
+}
+
+.contacto button:hover i{
+    color: black;
+}
+
+.contacto button i{
+    color: white;
+    font-size: 1.2rem;
+    transition: all 0.2s ease-in-out;
+}
+
+/* FOOTER*/
+footer{
+    min-height: 350px;
+}
+
+.footer-logo{
+    height: 80px;
+    width: 80px;
+}
+
+.footer-texto{
+    font-size: 1.1rem;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i{
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover{
+    background-color: white;
+    border: 3px solid #3a5a40
+}
+
+.iconos-redes-sociales a:hover i{
+    color: black;
+}
+
+.derechos-de-autor{
+font-size: 1rem;
+color: #aeaeae;
+padding: 5px 0 0 0;
+margin: 0 0 20px 0;
+}
+
+/* RESPONSIVE*/
+@media screen and (max-width: 767px) {
+    .navbar-brand{
+    display: none;
+    }
+    .hero .imagen{
+    max-width: 80%;
+    }
+    .footer-texto{
+    font-size: 0.9rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+    .proyecto{
+    border: none;
+    }
+    .experiencia .columna {
+margin-bottom: 15px;
+    }
+    .experiencia .columna2 {
+        margin-bottom: 15px;
+            }
+    .derechos-de-autor{
+        font-weight: 700;
+        font-size: 0.8rem;
+        padding: 0 15px; 
+        padding-top: 5px; 
+        padding-bottom: 0; 
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero.inferior.imagen{
+        max-width: 600px;
+    }
+    .stack .rectangulo{
+        width: 95%;
+    }
+    .stack img {
+        width: 50px;
+        height: 50px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .overlay p{
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    .overlay i{
+        font-size: 40px;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    .hdos{
+        font-size: 1.1rem;
+    }
+    .iconos-redes-sociales a{
+        width: 45px;
+        height: 45px;
+        margin: 5px;
+    }
+    .footer-logo{
+        height: 60px;
+        width: 60px;
+    }
+    .footer-texto{
+        font-size: 0.9rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+    .overlay{
+        top: 80%;
+        left: 50%;
+    }
+    
+    .overlay p{
+        font-size: 20px;
+        font-weight:500;
+    }
+    .derechos-de-autor{
+        font-weight: 700;
+        font-size: 0.8rem;
+        padding: 0 15px; 
+        padding-top: 5px; 
+        padding-bottom: 0; 
+        text-align: center;
+    }
+    .nav-link{
+        font-size: 1.2rem
+    }
+    .stack .rectangulo{
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    .stack img {
+        width: 30px;
+        height: 30px;
+        margin-right: 3px;
+    }
+    .stack .container{
+        padding: 5px;
+        padding-bottom: 20px;
+    }
+    .contacto button{
+        padding: 0.5em 2em;
+        margin-top: 10px;
+    }
+    .contacto .container{
+        padding: 5px 30px ;
+        min-height: 180px;
+        max-width: 600px;
+    }
+    .seccion-descripcion{
+        font-size: 0.9rem;
+        margin-bottom: 0px;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+.testimonio-imagen{
+    height: 120px;
+    width: 120px;
+}
+.testimonio-texto{
+    font-size: 18px;
+}
+.seccion-titulo{
+    font-size: 1.5rem;
+}
+.seccion-titulo-stack{
+    font-size: 1.5rem;
+}
+.seccion-texto{
+    font-size: 0.9rem;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.experiencia-titulo{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.experiencia .columna {
+    font-size: 0.9rem;
+    padding: 15px;
+}
+.experiencia .columna2 {
+    font-size: 0.9rem;
+    padding: 15px;
+}
+
+.card-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text{
+font-size: 0.9rem;
+}
+
+.text-body-secondary{
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.btn-info{
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.articulos .card-header{
+    font-size: 1.1rem;
+    }
+    
+    .list-group li{
+        font-size: 0.9rem;
+    }
+
+    .testimonio-texto{
+        font-size: 0.9rem;
+        max-width: 80%;
+    }
+    
+    .testimonio-info .cliente{
+        font-size: 1rem;
+    }
+
+    .contacto .descripcion{
+        font-size: 0.9rem;
+    }
+
+    .contacto button{
+        font-size: 0.9rem;
+        margin-top: 10px;
+    }
+
+    .seccion-descripcion{
+        font-size: 1rem;
+    }
+
+    .testimonios .seccion-descripcion{
+        font-size: 1rem;
+    }
+}
