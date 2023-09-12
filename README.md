@@ -1,6 +1,6 @@
 <h1>Maria Ale Deco</h1>
 <br />
-<img src="imagenes/fotodePerfil.svg" alt="Foto personal" class="imagen">
+<img src="imagenPRincipal.jpeg" alt="Foto personal" class="imagen">
 <h2>Blanqueria:</h2>
 <ul>
 <li>Cortinas</li>
