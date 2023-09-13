@@ -7,12 +7,12 @@ section{
 }
 
 h1{
-    font-size: 4.5rem;
+    font-size: 5rem;
     padding-left: 10px;
     padding-right: 10px;
     font-family: 'Josefin Sans';
     font-weight: 600;
-    margin-right: 250px;
+    margin-right: 150px;
 }
 
 .seccion-oscura{
@@ -45,7 +45,7 @@ h1{
     font-weight: 300;
     font-size: 1.2rem;
     color: #606060;
-    margin-bottom: 5px;
+    margin-bottom: -25px;
     text-align: center;
 }
 
@@ -58,25 +58,11 @@ h1{
     color: white;
 }
 
-/* .btn-info{
-    font-size: 1.2rem;
-    margin: 20px;
-    font-weight: lighter;
-    background-color: #424242;
-    color: white;
-    border: none;
-}
-
-.btn-info:hover{
-    background-color:#198754;
-    color: white;
-} */
-
 /* NAVBAR */    
 .navbar{
-    /* background-color:  white;  */
     background-color:  transparent; 
     margin-bottom: -100px;
+    margin-top: -20px;
 }
 
 .navbar-collapse{
@@ -107,7 +93,7 @@ h1{
 }
 
 .hdos{
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     font-size: 1.6rem;
     padding-left: 10px;
     padding-right: 10px;
@@ -125,9 +111,9 @@ h1{
 }
 
 .contacto .rectangulo{
-margin-top: -3.5rem;
+margin-top: -5.5rem;
 background-color: #808c5d;
-border-radius: 10px;
+border-radius: 100px;
 box-shadow: 0px 1px 5px 1px;
 }
 
@@ -143,6 +129,11 @@ box-shadow: 0px 1px 5px 1px;
 }
 
 /* Pasos para la compra */
+
+.atencionPersonalizada{
+margin-bottom: 50px;
+}
+
 .btn.btn-primary{
     background: #808c5d;
     border: none;
@@ -170,8 +161,7 @@ box-shadow: 0px 1px 5px 1px;
 
 .sobre-mi{
     padding: 20px;
-    padding-bottom: 30px;
-    margin-bottom: 100px;
+    padding-bottom: 20px;
     margin-top: 60px;
 }  
 
@@ -185,10 +175,16 @@ box-shadow: 0px 1px 5px 1px;
 }
 
 .flores{
-width: 650px;
-height: 100px;
-margin-bottom: 80px;
-margin-left: 10px;
+width: 400px;
+height: 50px;
+margin-bottom: 90px;
+}
+
+.floresSobreMi{
+    width: 600px;
+height: 80px;
+margin-bottom: 10px;
+margin-top: 30px;
 }
 
 /* Mision */
@@ -348,7 +344,11 @@ font-weight: 300;
 
 /* CARRUSELES*/
 .carousel{
-margin-bottom: 40px;
+margin-bottom: 200px;
+}
+
+.d-block3{
+    margin-bottom: 500px;
 }
 
 /* FOOTER*/
