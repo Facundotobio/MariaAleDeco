@@ -6,15 +6,6 @@ section{
     align-items: center;
 }
 
-h1{
-    font-size: 5rem;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: 'Josefin Sans';
-    font-weight: 600;
-    margin-right: 150px;
-}
-
 .seccion-oscura{
    background-color: #7b7a69;
     color: white;
@@ -35,23 +26,30 @@ h1{
 .seccion-texto{
     font-family: 'Josefin Sans';
     font-weight: 100;
-    font-size: 1.2rem;
-    padding-left: 25px;
-    padding-right: 25px;
+    font-size: 1.3rem;
+
 }
 
 .seccion-descripcion{
     font-family: 'Josefin Sans';
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #606060;
     margin-bottom: -25px;
     text-align: center;
 }
 
+.seccion-descripcion2{
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: #606060;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
 .texto-negro{
-    color: black;
-    
+    color: black;    
 }
 
 .texto-blanco{
@@ -61,8 +59,8 @@ h1{
 /* NAVBAR */    
 .navbar{
     background-color:  transparent; 
-    margin-bottom: -100px;
-    margin-top: -20px;
+    margin-bottom: -110px;
+    margin-top: -10px;
 }
 
 .navbar-collapse{
@@ -70,7 +68,7 @@ h1{
     justify-content: space-between;
 }
 .nav-link{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-family: 'Josefin Sans';
     font-weight: 300;
     margin-right: 15px;
@@ -84,70 +82,22 @@ h1{
     text-align: center;
 }
 
+.huno{
+    font-size: 5rem;
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
 .imagen{
-    height: 300px;
+    height: 380px;
     width: 1200px;
     border-radius: 20px;
     margin-bottom: 40px;
     box-shadow: 0px 0px 15px 0px rgba(0.80, 0.80, 0.80, 0.80);
 }
 
-.hdos{
-    margin-bottom: 40px;
-    font-size: 1.6rem;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #606060;
-    font-family: 'Josefin Sans';
-    font-weight: 300;
-    margin-right: 200px;
-}
-
-/* CONTACTO */
-.contacto .container{
-    max-width: 1100px;
-    min-height: 60px;
-    padding: 10px;
-}
-
-.contacto .rectangulo{
-margin-top: -5.5rem;
-background-color: #808c5d;
-border-radius: 100px;
-box-shadow: 0px 1px 5px 1px;
-}
-
-.contacto .row{
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.contacto .descripcion{
-    color: white;
-    font-size: 1.2rem;
-}
-
-/* Pasos para la compra */
-
-.atencionPersonalizada{
-margin-bottom: 50px;
-}
-
-.btn.btn-primary{
-    background: #808c5d;
-    border: none;
-}
-
-.btn.btn-primaryhover{
-    background-color:#7b7a69;
-    color: white;
-}
-
-.btn.btn-primary:active{
-    background-color: black;
-    color: white;
-}
 /* SECCION SOBRE MI */
 
 .seccion-titulosm{
@@ -166,60 +116,19 @@ margin-bottom: 50px;
 }  
 
 .sobre-mi .contenedor{
-    max-width: 800px;
+    max-width: 900px;
     text-align: center;
-}
-
-.flor{
-    align-items:center;
-}
-
-.flores{
-width: 400px;
-height: 50px;
-margin-bottom: 90px;
 }
 
 .floresSobreMi{
     width: 600px;
-height: 80px;
-margin-bottom: 10px;
-margin-top: 30px;
-}
-
-/* Mision */
-.experiencia{
-    padding: 60px 40px 60px 40px;   
-    margin-bottom: 50px;
-    font-family: 'Josefin Sans';
-    font-weight: 300;
-}
-
-.experiencia-titulo{
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 10px 0;
-    font-family: 'Josefin Sans';
-    font-weight: 600;
-}
-
-.experiencia .columna {
-    font-size: 1.1rem;
-padding: 30px 25px;;
-border: 2px solid #8080804d;
-flex-direction: column;
-justify-content: space-evenly;
-transition: all 0.2s ease-in;
-}
-
-.experiencia .columna:hover {
-color: white;
-background-color: #808c5d;
+    height: 80px;
+    margin-bottom: 10px;
 }
 
 /* Productos */
 .proyectos-recientes{
-    padding: 50px;
+    padding: 30px;
 }
 
 .proyectos-recientes img {
@@ -302,7 +211,7 @@ background-color: #808c5d;
 }
 
 .card-text{
-font-size: 1.1rem;
+font-size: 1.3rem;
 color: black;
 font-family: 'Josefin Sans';
 font-weight: 300;
@@ -310,7 +219,7 @@ font-weight: 300;
 
 .text-body-secondary{
     font-weight: 700;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-family: 'Josefin Sans';
     font-weight: 300;
 }
@@ -331,6 +240,48 @@ font-weight: 300;
     color: white;
 }
 
+/* Pasos para la compra */
+
+.atencionPersonalizada{
+margin-bottom: 50px;
+}
+
+.btn.btn-primary{
+    background: #808c5d;
+    border: none;
+    font-weight: 300;
+    font-family: 'Josefin Sans';
+    font-size: 1.3rem;
+}
+
+.btn.btn-secondary{
+    font-weight: 300;
+    font-family: 'Josefin Sans';
+    font-size: 1.3rem;
+}
+
+.btn.btn-primaryhover{
+    background-color:#7b7a69;
+    color: white;
+}
+
+.btn.btn-primary:active{
+    background-color: black;
+    color: white;
+}
+
+.modal-title{
+    font-weight: 600;
+    font-family: 'Josefin Sans';
+    font-size: 1.3rem;
+}
+
+.modal-body{
+    font-weight: 300;
+    font-family: 'Josefin Sans';
+    font-size: 1.3rem;
+}
+
 /* CARDS*/
 .card-img-top{
     width: 350px;
@@ -342,6 +293,7 @@ font-weight: 300;
     padding: 40px;
 }
 
+
 /* CARRUSELES*/
 .carousel{
 margin-bottom: 200px;
@@ -351,15 +303,43 @@ margin-bottom: 200px;
     margin-bottom: 500px;
 }
 
+.carousel-inner{
+    margin-top: 40px;
+}
+
+/* CONTACTO */
+.contacto .container{
+    max-width: 1100px;
+    min-height: 60px;
+    padding: 10px;
+}
+
+.contacto .rectangulo{
+margin-top: -5.5rem;
+background-color: #808c5d;
+border-radius: 100px;
+box-shadow: 0px 1px 5px 1px;
+}
+
+.contacto .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion{
+    color: white;
+    font-size: 1.2rem;
+}
+
 /* FOOTER*/
 footer{
     min-height: 150px;
 }
 
 .footer-texto{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     padding: 20px;
-    margin-bottom: 5px;
     font-family: 'Josefin Sans';
     font-weight: 300;
 }
