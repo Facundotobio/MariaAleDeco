@@ -176,6 +176,8 @@ section{
     font-weight: bold;
     margin-bottom: 0;
     color: black;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
 }
 
 .overlay .iconos-contenedor{
@@ -208,6 +210,7 @@ section{
 }
 .card{
     background-color: white;
+    align-items: center;
 }
 
 .card-title{
@@ -237,14 +240,18 @@ font-weight: 300;
     margin: 30px;
     font-family: 'Josefin Sans';
     font-weight: 300;
-    background-color: #7b7a69;
-    color: white;
+    background-color: #bdbdbd;
+    color: black;
     border: none;
 }
 
-
 .btn-info:hover{
-    background-color:#808c5d;
+    background-color:#7b7a69;
+    color: white;
+}
+
+.btn.btn-info:active{
+    background-color: black;
     color: white;
 }
 
@@ -270,7 +277,7 @@ margin-bottom: 130px;
     font-size: 1.3rem;
 }
 
-.btn.btn-primaryhover{
+.btn.btn-primary:hover{
     background-color:#7b7a69;
     color: white;
 }
