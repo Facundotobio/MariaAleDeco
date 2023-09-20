@@ -251,7 +251,7 @@ font-weight: 300;
 /* Pasos para la compra */
 
 .atencionPersonalizada{
-margin-bottom: 50px;
+margin-bottom: 130px;
 }
 
 .btn.btn-primary{
@@ -292,21 +292,9 @@ margin-bottom: 50px;
     font-size: 1.3rem;
 }
 
-/* CARDS*/
-.card-img-top{
-    width: 400px;
-    height: 350px;
-    margin-bottom: 10px;
-}
-
-.productosCards{
-    padding: 10px;
-}
-
-
 /* CARRUSELES*/
 .carousel{
-margin-bottom: 200px;
+margin-bottom: 50px;
 }
 
 .carousel-inner{
