@@ -20,15 +20,16 @@ section{
     font-size: 2.5rem;
     text-align: center;
     font-family: 'Josefin Sans';
-    font-weight: 600;
+    font-weight: 300;
+    margin-top: 40px; 
 }
 
-.seccion-titulo{
+.seccion-titulo2{
     font-size: 2.5rem;
     text-align: center;
     font-family: 'Josefin Sans';
     font-weight: 300;
-    margin-top: 40px; 
+    margin-bottom: 40px; 
 }
 
 .seccion-texto{
@@ -255,10 +256,31 @@ font-weight: 300;
     color: white;
 }
 
+/* Cards */
+
+.imagenes{
+    width: 1150px;
+    margin: 10px;
+}
+
+.card-img-top{
+    height: 500px;
+    margin-bottom: 15px;
+}
+
+.cards-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+}
+
 /* Pasos para la compra */
 
 .atencionPersonalizada{
 margin-bottom: 130px;
+margin-top: 15px;
 }
 
 .btn.btn-primary{
