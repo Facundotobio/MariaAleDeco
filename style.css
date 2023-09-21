@@ -209,6 +209,7 @@ section{
     opacity: 1;
 
 }
+
 .card{
     background-color: white;
     align-items: center;
@@ -254,6 +255,11 @@ font-weight: 300;
 .btn.btn-info:active{
     background-color: black;
     color: white;
+}
+
+.imagenesProductos{
+    height: 600px;
+    width: 400px;
 }
 
 /* Cards */
