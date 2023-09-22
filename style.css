@@ -211,7 +211,7 @@ section{
 
 .card{
     background-color: white;
-    align-items: center;
+    align-items: start;
 }
 
 .card-title{
@@ -223,11 +223,22 @@ section{
 }
 
 .card-text{
-font-size: 1.3rem;
+font-size: 1.2rem;
 color: black;
 font-family: 'Josefin Sans';
 font-weight: 300;
 }
+
+.card-body{
+    align-items: start;
+    justify-content: center;
+}
+
+.redireccionamiento{
+    display: flex;
+    justify-content: center;
+}
+
 
 .text-body-secondary{
     font-weight: 700;
