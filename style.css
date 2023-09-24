@@ -490,6 +490,25 @@ margin: 0 0 20px 0;
 } */
 
 @media screen and (max-width: 450px) {
+    .navbar-brand{
+        display: none;
+    }
+    
+    .navbar{
+        background-color:  transparent; 
+        margin-bottom: -120px;
+        margin-top: 20px;
+    }
+
+    .nav-link{
+        font-size: 1.2rem;
+        margin-right: 0px;
+        margin-top: -15px;
+    }
+
+    .logo{
+        display: none;
+    }
 
     .huno{
         font-size: 2.5rem;
