@@ -501,7 +501,7 @@ margin: 0 0 20px 0;
     }
 
     .nav-link{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         margin-right: 0px;
         margin-top: -15px;
     }
@@ -530,8 +530,12 @@ margin: 0 0 20px 0;
      }
 
     .seccion-titulosm{
-        font-size: 1.8rem;
+        font-size: 2rem;
         margin-top: -10px;
+    }
+
+    .seccion-texto{
+        font-size: 1.2rem;
     }
 
     .floresSobreMi{
@@ -641,11 +645,11 @@ margin: 0 0 20px 0;
 .seccion-titulo-stack{
     font-size: 1.5rem;
 }
-.seccion-texto{
+/* .seccion-texto{
     font-size: 0.9rem;
     padding-left: 25px;
     padding-right: 25px;
-}
+} */
 
 .experiencia-titulo{
     font-size: 1.2rem;
