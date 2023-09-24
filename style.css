@@ -212,6 +212,25 @@ section{
     font-weight: 300;
 }
 
+.overlay3{
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay3 p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: black;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+}
+
 .overlay .iconos-contenedor{
     display: flex;
 }
@@ -234,12 +253,12 @@ section{
     opacity: 1;
 }
 
-.proyecto:hover img{
-    opacity: 0.3;
+.proyecto1:hover .overlay3{
+    opacity: 1;
 }
 
-.proyecto:hover .overlay{
-    opacity: 1;
+.proyecto:hover img{
+    opacity: 0.3;
 }
 
 .card{
@@ -562,6 +581,20 @@ footer{
     }
 
     .overlay2 p{
+        font-size: 1.4rem;
+        font-weight: bold;
+        margin-bottom: 0;
+        color: black;
+        font-family: 'Josefin Sans';
+        font-weight: 300;
+    }
+
+    .overlay3{
+        font-size: 1rem;
+        margin-top: 110px;
+    }
+    
+    .overlay3 p{
         font-size: 1.4rem;
         font-weight: bold;
         margin-bottom: 0;
