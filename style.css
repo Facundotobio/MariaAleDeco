@@ -81,12 +81,17 @@ section{
     align-items: center;
     justify-content: space-between;
 }
+
 .nav-link{
     font-size: 1.5rem;
     font-family: 'Josefin Sans';
     font-weight: 300;
     margin-right: 10px;
     margin-top: -70px;
+}
+
+.logo{
+    margin-top: -15px;
 }
 
 /* SECCION PRINCIPAL */  
@@ -101,12 +106,13 @@ section{
     font-family: 'Josefin Sans';
     font-weight: 600;
     margin-right: 200px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+    margin-top: -10px;
 }
 
 .imagen{
-    height: 400px;
-    width: 1000px;
+    height: 430px;
+    width: 1200px;
     border-radius: 20px;
     margin-bottom: 40px;
     box-shadow: 0px 0px 15px 0px rgba(0.80, 0.80, 0.80, 0.80);
@@ -137,7 +143,7 @@ section{
 .floresSobreMi{
     width: 600px;
     height: 80px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 /* Productos */
@@ -251,10 +257,10 @@ section{
 }
 
 .card-text{
-font-size: 1.2rem;
-color: black;
-font-family: 'Josefin Sans';
-font-weight: 300;
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
 }
 
 .card-body{
@@ -303,8 +309,8 @@ font-weight: 300;
 /* Cards */
 
 .imagenes{
-    width: 1150px;
     margin: 10px;
+    width: 98%;
 }
 
 .card-img-top{
@@ -318,6 +324,7 @@ font-weight: 300;
     color: black;
     font-family: 'Josefin Sans';
     font-weight: 300;
+    margin-left: 10px;
 }
 
 .cards-text{
@@ -325,6 +332,7 @@ font-weight: 300;
     color: black;
     font-family: 'Josefin Sans';
     font-weight: 300;
+    margin-left: 20px;
     }
 
 .detalles{
@@ -471,53 +479,10 @@ padding: 5px 0 0 0;
 margin: 0 0 20px 0;
 }
 
-/* RESPONSIVE*/
-/* @media screen and (max-width: 767px) {
-    .navbar-brand{
-    display: none;
-    }
-    .hero .imagen{
-    max-width: 80%;
-    }
-    .footer-texto{
-    font-size: 0.9rem;
-    padding-left: 40px;
-    padding-right: 40px;
-    }
-    .proyecto{
-    border: none;
-    }
-    .experiencia .columna {
-    margin-bottom: 15px;
-    }
-    .experiencia .columna2 {
-        margin-bottom: 15px;
-            }
-    .derechos-de-autor{
-        font-weight: 700;
-        font-size: 0.8rem;
-        padding: 0 15px; 
-        padding-top: 5px; 
-        padding-bottom: 0; 
-        text-align: center;
-    }
-} */
+/* =========================================================================================================================== */
+                                                        /* RESPONSIVE*/
 
-/* @media screen and (min-width: 700px) {
-    .hero.inferior.imagen{
-        max-width: 600px;
-    }
-    .stack .rectangulo{
-        width: 95%;
-    }
-    .stack img {
-        width: 50px;
-        height: 50px;
-        margin-right: 5px;
-    }
-} */
-
-@media screen and (max-width: 450px) {
+ @media screen and (max-width: 450px) {
     .navbar-brand{
         display: none;
     }
@@ -626,12 +591,12 @@ margin: 0 0 20px 0;
     }
 
     .cards-title{
-     margin-left: 20px;
+     margin-left: 10px;
     }
 
     .cards-text{
-     margin-left: 30px;
-        }
+     margin-left: 20px;
+    }
 
     .imagenes{
         width: 100%;
@@ -642,7 +607,6 @@ margin: 0 0 20px 0;
     margin-left: 70px;
     }
 
-    /* atencion personalizada */
 
     .btn.btn-primary{
         margin-bottom: 60px;
@@ -652,7 +616,6 @@ margin: 0 0 20px 0;
         max-width: 300px;
     }
 
-    /* footer */
 
     .contacto .container{
         padding: 5px 20px ;
@@ -694,94 +657,5 @@ margin: 0 0 20px 0;
     .seccion-descripcion{
         font-size: 0.9rem;
         margin-bottom: 0px;
-    }
-}
-
-@media screen and (max-width: 850px) {
-.testimonio-imagen{
-    height: 120px;
-    width: 120px;
-}
-.testimonio-texto{
-    font-size: 18px;
-}
-.seccion-titulo{
-    font-size: 1.5rem;
-}
-.seccion-titulo-stack{
-    font-size: 1.5rem;
-}
-/* .seccion-texto{
-    font-size: 0.9rem;
-    padding-left: 25px;
-    padding-right: 25px;
-} */
-
-.experiencia-titulo{
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin: 10px 0;
-}
-
-.experiencia .columna {
-    font-size: 0.9rem;
-    padding: 15px;
-}
-.experiencia .columna2 {
-    font-size: 0.9rem;
-    padding: 15px;
-}
-
-.card-title{
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-.card-text{
-font-size: 0.9rem;
-}
-
-.text-body-secondary{
-    font-weight: 700;
-    font-size: 0.8rem;
-}
-
-.btn-info{
-    font-size: 1rem;
-    margin-top: 20px;
-}
-
-.articulos .card-header{
-    font-size: 1.1rem;
-    }
-    
-    .list-group li{
-        font-size: 0.9rem;
-    }
-
-    .testimonio-texto{
-        font-size: 0.9rem;
-        max-width: 80%;
-    }
-    
-    .testimonio-info .cliente{
-        font-size: 1rem;
-    }
-
-    .contacto .descripcion{
-        font-size: 0.9rem;
-    }
-
-    .contacto button{
-        font-size: 0.9rem;
-        margin-top: 10px;
-    }
-
-    .seccion-descripcion{
-        font-size: 1rem;
-    }
-
-    .testimonios .seccion-descripcion{
-        font-size: 1rem;
-    }
+    } 
 }
