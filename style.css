@@ -299,6 +299,10 @@ font-weight: 300;
     font-weight: 300;
 }
 
+.detalles{
+    margin-left: 500px;
+    }
+
 /* Pasos para la compra */
 
 .atencionPersonalizada{
@@ -541,8 +545,12 @@ margin: 0 0 20px 0;
     }
 
     .imagenes{
-        width: 320px;
+        width: 355px;
         margin: 10px;
+    }
+
+    .detalles{
+    margin-left: 70px;
     }
 
     /* atencion personalizada */
