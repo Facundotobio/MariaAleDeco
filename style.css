@@ -618,7 +618,7 @@ footer{
     
     .redireccionamiento{
      min-width: 300px;
-     margin-right: 160px;
+     margin-right: 120px;
     }
 
     .cards-title{
@@ -636,6 +636,10 @@ footer{
 
     .detalles{
     margin-left: 60px;
+    }
+
+    .btn-info{     
+   width: 280px;
     }
 
     .btn.btn-primary{
