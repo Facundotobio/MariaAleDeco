@@ -358,6 +358,10 @@ section{
     margin-left: 500px;
     }
 
+.detalles2{
+    margin-left: 500px;
+    }
+
 /* Pasos para la compra */
 
 .atencionPersonalizada{
@@ -635,7 +639,8 @@ footer{
     }
 
     .detalles{
-    margin-left: 20px;
+        max-width: 100px;
+        margin-left: 15px;
     }
 
     .btn-info{     
