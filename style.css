@@ -632,10 +632,12 @@ footer{
 
     .cards-title{
      margin-left: 10px;
+     font-size: 1.3rem;
     }
 
     .cards-text{
      margin-left: 20px;
+     font-size: 1.2rem;
     }
 
     .imagenes{
