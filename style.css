@@ -311,12 +311,32 @@ section{
     border: none;
 }
 
+.btn-info2{
+    font-size: 1.2rem;
+    margin: 30px;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    background-color: #bdbdbd;
+    color: black;
+    border: none;
+}
+
 .btn-info:hover{
     background-color:#7b7a69;
     color: white;
 }
 
 .btn.btn-info:active{
+    background-color: black;
+    color: white;
+}
+
+.btn-info2:hover{
+    background-color:#7b7a69;
+    color: white;
+}
+
+.btn.btn-info2:active{
     background-color: black;
     color: white;
 }
@@ -654,6 +674,12 @@ footer{
    width: 235px;
    font-size: 1rem;
     }
+
+    .btn-info2{     
+        width: 235px;
+        font-size: 1rem;
+        margin-left: 60px;
+         }
 
     .btn.btn-primary{
         margin-bottom: 60px;
