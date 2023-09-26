@@ -675,7 +675,7 @@ footer{
         width: 45px;
         height: 45px;
         margin-right: 15px;
-        margin-top: -20px;
+        margin-top: 60px;
     }
 
     .seccion-titulo-contacto{
@@ -697,7 +697,7 @@ footer{
         font-weight: 300;
         font-size: 0.8rem;
         padding: 0 15px; 
-        margin-bottom: -15px;
+        margin-bottom: 15px;
         text-align: center;
     }
 
