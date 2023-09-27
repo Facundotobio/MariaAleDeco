@@ -653,13 +653,20 @@ footer{
     .cards-title{
      margin-left: 10px;
      font-size: 1.3rem;
+     margin-top: -20px;
     }
 
     .cards-text{
      margin-left: 20px;
      font-size: 1.2rem;
+     margin-top: -10px;
+     margin-bottom: -2px;
     }
 
+    .card-img-top{
+        height: 430px;
+        margin-bottom: 25px;
+    }
     .imagenes{
         width: 100%;
         margin: 0px;
